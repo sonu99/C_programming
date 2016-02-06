@@ -1,4 +1,4 @@
-//Simple Menu_record program using fixed array size(add,sort,) 
+// Simple Menu_record program using fixed array size(add,sort,) 
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
