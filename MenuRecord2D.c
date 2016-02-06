@@ -102,16 +102,20 @@ void print(char (*a)[20])
 /*****************************FIND*********************************/
 void find(char(*a)[20])
 {
-	int i;
+	int i,flag=0;
 	char str[20];
 	printf("Enter name which you want to search:");
 	gets(str);
 	for(i=0;i<cnt;i++)
 	{
 		if(strcmp(a[i],str)==0)
-			printf("match found at %d\n",i+1);
-			//printf("!!!!Sorry::match not found");
+			{
+				printf("match found at %d\n",i+1);
+				flag++;
+			}
 	}
+	if(flag==0)
+		printf("!!!!Sorry::match not found\n");
 }
 /*************************************SHORT*************************/
 void sort(char (*a)[20])
