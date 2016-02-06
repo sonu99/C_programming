@@ -121,7 +121,7 @@ void find(char(*a)[20])
 void sort(char (*a)[20])
 {
 	int i,j,k;
-	char * temp[20];
+	char  temp[20];
 	for(i=1;i<cnt;i++)
 	{
 		for(j=0;j<cnt-i;j++)
