@@ -1,3 +1,4 @@
+//Program for toggle the all bit of number
 #include<stdio.h>
 #define		TOGGLEBIT(n,b)	(n^=(1<<(b)))
 #define		TESTBIT(n,b)	(((n)>>(b))&1)	
@@ -19,7 +20,7 @@ void main()
 void PrintBit(int n,int b)
 {
 	int i;
-	for(i=0;i<b;i++)
+	for(i=b-1;i>=0;i--)
 		printf("%d",TESTBIT(n,i));
 	printf("\n");
 
