@@ -1,4 +1,4 @@
-//Program for toggle the all bit of number.
+//Program for toggle the all bit of number...
 #include<stdio.h>
 #define		TOGGLEBIT(n,b)	(n^=(1<<(b)))
 #define		TESTBIT(n,b)	(((n)>>(b))&1)	
